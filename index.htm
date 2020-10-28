@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <div id="app">
+        <input v-model="name" placeholder="Name">
+        <button v-on:click="sayHello()" class="btn btn-primary">Say hello</button>
+        <div>{{ greeting }}</div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
